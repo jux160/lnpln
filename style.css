@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap');
+
+body{
+    font-family: 'Sono', sans-serif;
+    background-color: ;
+}
+#titre1{
+    color:rgb(55, 158, 100);
+    background-color:rgb(2, 66, 3);
+    border-radius: 10px;
+}
+details{
+    margin-left: 60px;
+}
