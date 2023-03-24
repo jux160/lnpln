@@ -2,13 +2,71 @@
 
 body{
     font-family: 'Sono', sans-serif;
-    background-color: ;
+    background-color: rgb(179, 145, 249);
 }
 #titre1{
-    color:rgb(55, 158, 100);
-    background-color:rgb(2, 66, 3);
+    color:rgb(87, 28, 160);
+    background-color:rgb(12, 140, 209);
     border-radius: 10px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+
 }
-details{
+#cours{
     margin-left: 60px;
+    color: rgb(135, 67, 224);
+
+}
+
+a{
+    color:rgb(129, 71, 206)
+}
+a:hover{
+    font-size: 30px;
+    color: rgb(137, 55, 214);
+}
+
+#description{
+    color: rgb(87, 28, 160);
+    background-color: rgb(12, 140, 209);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.def {
+	padding: 5px 4px 0px 0px;
+	position: relative;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.def .deftext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #747eed;
+    color: #fff;
+    text-align: space-around;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 50%;
+    margin-left: -150px;
+    font-size: 0.9em;
+    }
+
+.def .deftext::after {
+        content: " ";
+        position: absolute;
+        bottom: 100%;  
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent #c2aced transparent;
+        }
+.def:hover .deftext {
+    visibility: visible;
 }
