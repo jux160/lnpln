@@ -2,15 +2,23 @@
 
 body{
     font-family: 'Sono', sans-serif;
-    background-image: linear-gradient(blue, pink);
+    background-color: #c7caf1;
 }
 #titre1{
     color:rgb(82, 28, 160);
     background-color:rgb(12, 140, 209);
     border-radius: 10px;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 50px;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 120px;
 
 }
 #cours{
