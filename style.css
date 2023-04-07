@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Sono', sans-serif;
-    background-color: rgb(158, 168, 217);
+    background-color:#f2f2df;
 }
 #titre1{
     color:rgb(82, 28, 160);
@@ -32,7 +32,7 @@ a{
     color:rgb(129, 71, 206)
 }
 a:hover{
-    font-size: 20px;
+    font-size: 40px;
     color: rgb(137, 55, 214);
 }
 
@@ -42,8 +42,6 @@ a:hover{
     border-radius: 10px;
     text-align: center;
     font-size:20px;
-    margin-left: 85px;
-    margin-right: 85px;
 
 }
 
@@ -86,7 +84,70 @@ a:hover{
 
 #logo{
 
-    width: 100px;
-    height:90px;
+    width: 132px;
+    height: 109px;
     position:static;
 }
+  
+.slider {
+    width: 800px;
+    margin-left: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+  
+.slides {
+    display: flex;
+    
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    
+    
+    
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  
+  } 
+.slides > div {
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    border-radius: 10px;
+    background: #b3e6f3;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+  }
+
+
+
+  
+.slider > a {
+    display: inline-flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 0 0.5rem 0;
+    position: relative;
+  }
+.slider > a:active {
+    top: 1px;
+  }
+.slider > a:focus {
+    background:#f2f2df
+  }
+  
+
+  
