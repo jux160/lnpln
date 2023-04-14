@@ -2,11 +2,18 @@
 
 body{
     font-family: 'Sono', sans-serif;
-    background-color:#f2f2df;
+    background-color:#fce5cd;
+}
+
+.dark{
+  background-color: rgb(43, 40, 40);
+}
+#dark-theme{
+  margin-top: 25px;
 }
 #titre1{
-    color:rgb(82, 28, 160);
-    background-color:rgb(12, 140, 209);
+  font-size: 40px;
+    color:#0b1476;
     border-radius: 10px;
     text-align: center;
     margin-left: 100px;
@@ -32,19 +39,17 @@ a{
     color:rgb(129, 71, 206)
 }
 a:hover{
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(137, 55, 214);
 }
 
 #description{
-    color: rgb(87, 28, 160);
-    background-color: rgb(12, 140, 209);
-    border-radius: 10px;
+    color: #e69138;
     text-align: center;
-    font-size:20px;
-
+    font-size: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
-
 .def {
 	padding: 5px 4px 0px 0px;
 	position: relative;
@@ -65,7 +70,7 @@ a:hover{
     top: 110%;
     left: 50%;
     margin-left: -150px;
-    font-size: 0.9em;
+    font-size: 20px;
     }
 
 .def .deftext::after {
@@ -98,28 +103,16 @@ a:hover{
   
 .slides {
     display: flex;
-    
     overflow-x: auto;
-    scroll-snap-type: x mandatory;
-    
-    
-    
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-  
   } 
 .slides > div {
-    scroll-snap-align: start;
     flex-shrink: 0;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     margin-right: 50px;
     border-radius: 10px;
-    background: #b3e6f3;
-    transform-origin: center center;
-    transform: scale(1);
-    transition: transform 0.5s;
-    position: relative;
+    background: #f7d7b5;
+    
     
     display: flex;
     justify-content: center;

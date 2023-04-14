@@ -5,17 +5,31 @@
         <title>la nsi pour les nuls</title>
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
-    <body class"">
+    <body class="none">
         <header>
             <img id="logo" src="image/logo.png" alt="logo">   
             <h1 id="titre1">La nsi pour les nuls</h1>
+            <div id="dark-theme">
+              <input type="checkbox" id="dark-theme" min="0" max="1" onclick="
+              let elm = document.body
+
+              if (elm.className == 'none') {
+                elm.className = 'dark';
+              }
+              else{
+                elm.className = 'none'              
+              }">
+              <label for="dark-theme">dark theme</label>
+            </div>
         </header>
         <section>
-            <p id="description">
+          <div id="description">
+            <p>
                 bienvenue sur notre site ou vous pourrez consultez des cours sur <span class="def"> html/css 
                     <span class="deftext"> HTML, c'est : Hyper Text Markup Language ou langage de balise pour l'hypertexte. CSS, c'est : Cascading Style Sheets ou feuilles de style en cascade, c'est deux language permette de crée un site web </span></span> 
                     et <span class="def"> python <span class="deftext">Python est un langage de programmation largement utilisé dans les applications Web, le développement de logiciels, la science des données et le machine learning (ML).</span></span> ainsi que quelque exemple de page html/css avec des animations
             </p>
+          </div>
         </section>
 
         
