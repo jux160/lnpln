@@ -1,8 +1,11 @@
-function darktheme(){
-    if (document.body == ""){
-        document.body.classList.add('dark');
-    }
-    else{
-        document.body.classList.remove('dark');
-    }
+function theme(){
+
+let elm = document.body
+
+if (elm.className == 'none') {
+    elm.className = 'dark';
+  }
+  else{
+    elm.className = 'none'              
+  }
 }
